@@ -15,7 +15,7 @@
     <div>
         <footer style="font-style: italic";">Copyright: r60380 @9 May 2024</footer>
     </div>
-    <p style="text-align: right;">On the right</p>
+    <p id="align" style="text-align: right;">On the right</p>
     <table style="background: wheat;">
         <colgroup>
             <col style="background: blue;">
@@ -42,5 +42,10 @@
             </tr>
         </tbody>
     </table>
+    <script type="text/javascript">
+        function updateContent(){
+            document.getElementById("align").innerHTML = "Now is on the right, please change to the left";
+        }
+    </script>
 </body>
 </html>
